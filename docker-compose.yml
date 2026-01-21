@@ -3,7 +3,7 @@
 services:
   galeria:
     container_name: galeria
-    image: angeluco/test:latest
+    image: angeluco/galeria:latest
     ports:
       - 80:5000
     restart: always
